@@ -37,6 +37,6 @@ zip2john dental_info.zip > zip.hashes
 ```
 john --mask=900802jfeng@veryrealmail.com?a?a?aR3ply! zip.hashes
 ```
-![img](image-dump/img246.png)
+![img](../image-dump/img246.png)
 
 got the pwd yay!

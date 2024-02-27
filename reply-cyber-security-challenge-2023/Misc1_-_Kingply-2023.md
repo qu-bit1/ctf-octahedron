@@ -32,11 +32,11 @@ exiftool receipt.png
 ```
 zip2john dental_info.zip > zip.hashes
 ```
-![[Pasted image 20231015120417.png]]
+![img][image-dump/Pasted image 20231015120417.png]
 - `Mask flag` - Using john on a pre-password format, here we need to bruteforce 3 unknown characters after '.com'.
 ```
 john --mask=900802jfeng@veryrealmail.com?a?a?aR3ply! zip.hashes
 ```
-![[Pasted image 20231015120246.png]]
+![img][image-dump/Pasted image 20231015120246.png]
 
 got the pwd yay!
